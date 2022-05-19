@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+   font-family: abril Fatface;
+   max-width: 100%;
+}
+
+header{
+      height: 700px;
+ }
+
+.navbar, .nav-link{
+   font-size: large;
+   font-weight: 700;
+   color: #add981;
+   margin-left: 50px;
+   margin-right: 50px;
+   letter-spacing: 1px;
+}
+
+a:hover{
+   color: #feca57;
+}
+
+.btn:hover{
+   background-color: #feca57;
+   color: white;
+}
+
+.hero{
+   margin-top: 290px;
+   margin-left: 50px;
+   color: beige;
+   font-size: 50px;
+   font-weight: 500;
+   word-spacing: 15px;
+   letter-spacing: 3px;
+}
+   
+.row, .col{
+ font-size: 30px;
+ }
+
+.delivery-icon {
+   color: #add981;
+   font-size: 50px;
+   margin-top: 150px;
+}
+
+.best, .plantes{
+   margin-top: 100px;
+   font-size: 50px;
+   color: #0652DD;
+   position: relative;
+   margin-bottom: 40px;
+   margin-left: 50px;
+}
+
+.best::before, .plantes::before{
+content: " ";
+position: absolute;
+background-color: #add981;
+height: 6px;
+width: 85px;
+bottom: 0;
+}
+
+.plant-1, .plant-2, .plant-3, .plant-4{
+   color: black;
+}
+
+.card-text{
+   color: #add981;
+}
+
+.btn{
+   color: white;
+   background-color: #add981;
+   border-radius: 16px;
+   border: none;
+   margin-left: 110px;
+}
+
+#plantes{
+   margin-left: 35px;
+}
+
+#ventes{
+   margin-left: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: 600;
+  margin-top: 180px;
+  }
+
